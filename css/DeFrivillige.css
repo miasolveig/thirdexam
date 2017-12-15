@@ -1,0 +1,101 @@
+/* CSS Document */
+/* Fjerner hvid kant i browser*/
+body {
+    margin: 0px;
+}
+
+/* Sørger for bredden man angiver på bokse matcher og at 
+eksempelvis padding ikke lægges oven i bredden*/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* fonts */
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+}
+
+a{
+    color: #b30a0a;
+}
+
+#rodboks{
+    background-color: #b30a0a;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    color: white;
+    padding: 50px 0;
+}
+
+input[type=submit]{
+    color: white;
+    background-color: #b30a0a;
+    border: none;
+    height: 30px;
+    width: 250px;
+
+}
+.knap{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* Udgangpunkt: Tablet højkant*/
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Udgangpunkt: Tablet landscape*/
+@media only screen and (min-width: 992px) {
+
+    #mineaktiviteter{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #mineaktiviteter h2{
+        width: 100%;
+    }
+
+    .info_aktivitet{
+        justify-content: space-between;
+        width: 60%
+    }
+    #rodboks{
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    .knap{
+        width: 40%;
+        padding-top: 8%;
+    }
+
+    .tekst{
+        display: flex;
+    }
+
+}
+
+/* Udgangpunkt: Computer (større skærm)*/
+@media only screen and (min-width: 1200px) {
+    body{
+        margin: 0% 10% 0% 10%;
+    }
+}
