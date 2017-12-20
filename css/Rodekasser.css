@@ -1,0 +1,89 @@
+/* CSS Document */
+/* Fjerner hvid kant i browser*/
+body {
+    margin: 0px;
+}
+
+/* fonts */
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+}
+#kasser{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rod{
+    background-color: #b30a0a;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2%;
+    margin-right: 40px;
+
+
+}
+.rod2{
+    background-color: #b30a0a;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+.rod3{
+    background-color: #b30a0a;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2%;
+    margin-left: 40px;
+
+
+}
+a{
+    color: #b30a0a;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+}
+
+
+
+/* Sørger for bredden man angiver på bokse matcher og at 
+eksempelvis padding ikke lægges oven i bredden*/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Udgangpunkt: Tablet højkant*/
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Udgangpunkt: Tablet landscape*/
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Udgangpunkt: Computer (større skærm)*/
+@media only screen and (min-width: 1200px) {
+
+}
