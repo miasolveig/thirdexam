@@ -1,0 +1,39 @@
+/* CSS Document */
+/* Fjerner hvid kant i browser*/
+body {
+    margin: 0px;
+}
+
+/* fonts */
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    color: #b30a0a;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+}
+
+/* Sørger for bredden man angiver på bokse matcher og at 
+eksempelvis padding ikke lægges oven i bredden*/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Udgangpunkt: Tablet højkant*/
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Udgangpunkt: Tablet landscape*/
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Udgangpunkt: Computer (større skærm)*/
+@media only screen and (min-width: 1200px) {
+
+}
